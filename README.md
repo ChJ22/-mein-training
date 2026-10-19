@@ -1,4 +1,4 @@
-# Mein Training – Trainings-App (Version 1.1)
+# Mein Training – Trainings-App (Version 1.2)
 
 **Mein Training** ist eine kostenlose, installierbare Trainings-Web-App (Progressive Web App, PWA) für iOS und Android. Sie ist langfristig für verschiedene Trainingsprogramme zu Hause gedacht; derzeit ist das erste Programm **„Unterer Rücken – Stabilisierung“** enthalten.
 
@@ -24,7 +24,7 @@ Das tatsächlich angelegte Repository heißt **`ChJ22/-mein-training`** (mit fü
 ## Veröffentlichung und Aktualisierung über GitHub Pages
 
 1. Das bestehende Repository `ChJ22/-mein-training` öffnen.
-2. Dateien aus diesem Paket **entpacken** und ins Hauptverzeichnis des Repositorys hochladen. Für Version 1.1 insbesondere `index.html` und `uebung-1.png` bis `uebung-5.png` aktualisieren; auch `sw.js`, `manifest.webmanifest` und diese README mit übernehmen.
+2. Dateien aus diesem Paket **entpacken** und ins Hauptverzeichnis des Repositorys hochladen. Für Version 1.2 insbesondere `index.html` und `uebung-1.png` bis `uebung-5.png` aktualisieren; auch `sw.js`, `manifest.webmanifest` und diese README mit übernehmen.
 3. Vorhandene Dateien beim Aktualisieren ersetzen beziehungsweise über die GitHub-Oberfläche einzeln bearbeiten/hochladen; keine doppelten Dateien in einem Unterordner anlegen. Änderungen mit **Commit changes** speichern.
 4. Unter **Settings → Pages → Build and deployment**: **Deploy from a branch**, Branch **main**, Ordner **/(root)** auswählen und speichern (falls noch nicht geschehen).
 5. Nach der Veröffentlichung die App-Adresse oben öffnen und die Änderungen prüfen. Eventuell muss die installierte Web-App neu gestartet oder ihr Cache aktualisiert werden.
@@ -47,3 +47,10 @@ Trainingseinträge werden lokal im Browser beziehungsweise in der installierten 
 ## Gesundheitshinweis
 
 Die Übungen sind allgemeine Trainingsvorschläge, keine individuell abgestimmte Therapie. Nur kontrolliert und im tolerierbaren Bereich trainieren; bei deutlich zunehmenden Schmerzen oder neurologischen Symptomen abbrechen und medizinischen Rat einholen.
+
+## Änderungen in Version 1.2
+
+- Ausführlichere, verständlichere Schritt-für-Schritt-Texte für **Beckenkippen** und **Bauchmuskelspannung in Rückenlage**.
+- Zusätzliche Hinweise zu typischen Ausführungsfehlern und zum Unterschied zwischen Bewegung und Muskelanspannung.
+- Aktualisierter Offline-Cache.
+- **Die beiden bisherigen Illustrationen sind noch unverändert**, da die Erstellung neuer Bilder technisch nicht gelungen ist.
