@@ -24,3 +24,6 @@ Das allgemeine Fitness-Icon mit zwei sportlichen Silhouetten ersetzt das bisheri
 - Alle Einträge als JSON exportieren.
 - Bestehende Einträge bleiben über den bisherigen lokalen Speicherschlüssel erhalten.
 - Speicherung erfolgt ausschließlich lokal im jeweiligen Browser/App-Kontext; vor Neuinstallation oder Löschen der App Daten exportieren.
+
+## Tagebuch-Export (Version 1.6)
+Im Tagebuch „Trainingstagebuch als PDF speichern“ antippen. Im Druckdialog kann unter iOS die Druckvorschau über das Teilen-Menü als PDF in „Dateien“ gespeichert werden; unter Android „Als PDF speichern“ wählen. Die JSON-Datensicherung bleibt erhalten und kann über „Datensicherung wiederherstellen (JSON)“ wieder eingelesen werden. Die PDF ist zum Lesen, nicht zur Wiederherstellung gedacht. Daten werden weiterhin lokal im Browser gespeichert.
