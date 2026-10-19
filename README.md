@@ -15,3 +15,12 @@ Bildmaterial sind zugeschnittene Übungsfelder aus dem freigegebenen Infografik-
 Das allgemeine Fitness-Icon mit zwei sportlichen Silhouetten ersetzt das bisherige T-Symbol. Enthalten sind `icon-192.png`, `icon-512.png` und `apple-touch-icon.png`. Die Manifest-Datei verwendet die neuen Icons, und der Service-Worker-Cache wurde auf Version 1.4 angehoben.
 
 **Wichtig:** Alle Dateien im ZIP ins Repository-Hauptverzeichnis hochladen (nicht die ZIP selbst). Vorhandene Dateien ersetzen. iOS kann das alte Home-Bildschirm-Icon weiter anzeigen, bis der Home-Bildschirm-Eintrag entfernt und nach der Veröffentlichung neu hinzugefügt wird. Vor dem Entfernen einer bereits benutzten App die Trainingsdaten als JSON exportieren; lokale Daten können sonst verloren gehen.
+
+
+## Version 1.5 – Trainingstagebuch
+- Tagebucheinträge unabhängig von Trainingseinheiten anlegen (Datum, Typ, Schmerzstärke, Notiz).
+- Gespeicherte Trainings und Tagebucheinträge gemeinsam anzeigen.
+- Einzelne manuelle Tagebucheinträge löschen.
+- Alle Einträge als JSON exportieren.
+- Bestehende Einträge bleiben über den bisherigen lokalen Speicherschlüssel erhalten.
+- Speicherung erfolgt ausschließlich lokal im jeweiligen Browser/App-Kontext; vor Neuinstallation oder Löschen der App Daten exportieren.
